@@ -1,0 +1,80 @@
+
+@import "../colors/colors.scss";
+
+
+.navbarLogin {
+    background-color: transparent;
+}
+.bgBodyLogin {
+    background-color: $primary-color;
+}
+
+.containerVideo {
+       
+}
+.bgVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: -8%;
+    z-index: -1;
+    background: url(../../img/pug.jpg);
+}
+.loginCard {
+    position: absolute;
+    z-index: 1;
+}
+.cardLogin {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: none;
+    color: transparent;
+    margin-top: -47%;
+
+    
+    
+}
+.Login {
+    display: block;
+    color: $primary-color;
+    width: 400px;
+    height: auto;
+    background-color: $primary-color;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 1% 1%;
+}
+label {
+    color: #eae9e9;
+}
+
+.footerLogin {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+   
+
+}
+.logoFuterLogin {
+    margin-bottom: -40%;
+
+    
+   
+}
+.btn-submit {
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+/*@media screen and (max-width:1375px) {
+    .cardLogin {
+    }
+}  sorry! sem muita responsividade*/

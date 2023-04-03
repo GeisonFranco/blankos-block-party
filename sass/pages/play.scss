@@ -1,0 +1,60 @@
+
+.navbarLinkBtn {
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursiva;
+    color: #cdcccc;
+    &.navbarLinkBtn:hover {
+        color: #323232;
+    }
+}
+.colPlay {
+    margin-top: 2%;
+    margin-left: 4%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.imgLogoPlay {
+    width: 25%;
+    border: blue;
+    margin-left: 36%; 
+}
+.btn-download {
+    margin-top: 5%;
+    margin-left: 3%;
+    
+}
+.list-group-item {
+    background-color: #323232;
+    color: #cdcccc;
+
+    &.li-titlle {
+        background-color: #6ff9f9;
+        color: #030303;
+    }
+}
+.accordion-P {
+    margin-left: 32%; 
+}
+.accordion-play {
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+}
+.accordion-body-play {
+    background-color: #323232;
+    margin-left: 18%;
+}
+.footer-play {
+   
+    bottom: 0;
+    width: 100%;
+    margin: auto auto;
+}
+.logoFooter-play {
+    width: 100vh;
+    padding-bottom: 0%;
+    margin-bottom: -140%;
+}

@@ -1,0 +1,129 @@
+@import "../colors/colors.scss";
+
+.bgBody {
+    background-color: $primary-color;
+}
+.navbar, .mainContainer {
+    background-color: transparent;
+}
+.btnGroup {
+    margin-top: -6%;
+    margin-right: 40%;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: $primary-color;
+    &.btn:hover {
+        background-color: #ffffff ;
+    }
+}
+
+.logoNavBar {
+    width: 15%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;  
+}
+
+.imgLogo2 { 
+    margin-left: 25%;
+}
+
+.billy {
+    position: relative;
+    z-index: -100;
+
+    margin-left: 20%;
+    animation: billyB 2s infinite alternate ease-in-out;
+}
+
+
+.card  {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+}
+
+.col1 {
+    margin-top: -8%;
+}
+.col2 {
+    background-color: $primary-color;
+    box-shadow: -03px -04px 1em -05px #000000;
+    border-radius: 10%;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+
+/*accordion*/
+.accordion-item {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: $primary-color;
+    border-radius: 10%;
+}
+.btn-accordiun {
+    font-size: large;
+    font-family: 'Alfa Slab One', cursiva;
+    margin-left: 20%;  
+}
+    
+
+/*textos:*/
+p {
+    color: #ecebeb;
+    font-family: 'Alfa Slab One', cursiva;
+}
+.sectionDescription {
+    color: #9b9999;
+    margin-bottom: 3%;
+}
+.cardCentralDescript {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.mythicalLogos {
+    width: 25%;
+    margin-left: 40%;
+
+    animation: ballon 2s infinite alternate ease-in-out;
+    animation-delay: 1s;
+}
+@keyframes ballon {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(200px);
+    }
+}
+
+.sectioncall {
+    margin-top: -25%;
+}
+
+.footer {
+    background-color: $primary-color;
+}
+.logoFooter {
+    width: 60%;
+    margin-left: 20%;
+}
+.footerAnchor {
+    text-decoration: none;
+    color: #a7a5a5;
+    margin-left: 45%;
+}
+
+@keyframes billyB {
+    from {
+        transform: translate(-4%, 0%) rotate(0deg);
+    }
+}

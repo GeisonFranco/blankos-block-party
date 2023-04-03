@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*Cores da página*/
+.bgBody {
+  background-color: #323232;
+}
+
+.navbar, .mainContainer {
+  background-color: transparent;
+}
+
+.btnGroup {
+  margin-top: -6%;
+  margin-right: 40%;
+  margin-left: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #323232;
+}
+.btn.btn:hover {
+  background-color: #ffffff;
+}
+
+.logoNavBar {
+  width: 15%;
+  height: auto;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.imgLogo2 {
+  margin-left: 25%;
+}
+
+.billy {
+  position: relative;
+  z-index: -100;
+  margin-left: 20%;
+  animation: billyB 2s infinite alternate ease-in-out;
+}
+
+.card {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+}
+
+.col1 {
+  margin-top: -8%;
+}
+
+.col2 {
+  background-color: #323232;
+  box-shadow: -3px -4px 1em -5px #000000;
+  border-radius: 10%;
+  margin-top: -5%;
+  margin-bottom: 2%;
+  margin-right: 4%;
+}
+
+/*accordion*/
+.accordion-item {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #323232;
+  border-radius: 10%;
+}
+
+.btn-accordiun {
+  font-size: large;
+  font-family: "Alfa Slab One", cursiva;
+  margin-left: 20%;
+}
+
+/*textos:*/
+p {
+  color: #ecebeb;
+  font-family: "Alfa Slab One", cursiva;
+}
+
+.sectionDescription {
+  color: #9b9999;
+  margin-bottom: 3%;
+}
+
+.cardCentralDescript {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.mythicalLogos {
+  width: 25%;
+  margin-left: 40%;
+  animation: ballon 2s infinite alternate ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes ballon {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(200px);
+  }
+}
+.sectioncall {
+  margin-top: -25%;
+}
+
+.footer {
+  background-color: #323232;
+}
+
+.logoFooter {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.footerAnchor {
+  text-decoration: none;
+  color: #a7a5a5;
+  margin-left: 45%;
+}
+
+@keyframes billyB {
+  from {
+    transform: translate(-4%, 0%) rotate(0deg);
+  }
+}
+/*Cores da página*/
+.navbarLogin {
+  background-color: transparent;
+}
+
+.bgBodyLogin {
+  background-color: #323232;
+}
+
+.bgVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: -8%;
+  z-index: -1;
+  background: url(../../img/pug.jpg);
+}
+
+.loginCard {
+  position: absolute;
+  z-index: 1;
+}
+
+.cardLogin {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: none;
+  color: transparent;
+  margin-top: -47%;
+}
+
+.Login {
+  display: block;
+  color: #323232;
+  width: 400px;
+  height: auto;
+  background-color: #323232;
+  margin-left: 3%;
+  margin-top: 3%;
+  padding: 1% 1%;
+}
+
+label {
+  color: #eae9e9;
+}
+
+.footerLogin {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.logoFuterLogin {
+  margin-bottom: -40%;
+}
+
+.btn-submit {
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+/*@media screen and (max-width:1375px) {
+    .cardLogin {
+    }
+}  sorry! sem muita responsividade*/
+.navbarLinkBtn {
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursiva;
+  color: #cdcccc;
+}
+.navbarLinkBtn.navbarLinkBtn:hover {
+  color: #323232;
+}
+
+.colPlay {
+  margin-top: 2%;
+  margin-left: 4%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.imgLogoPlay {
+  width: 25%;
+  border: blue;
+  margin-left: 36%;
+}
+
+.btn-download {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.list-group-item {
+  background-color: #323232;
+  color: #cdcccc;
+}
+.list-group-item.li-titlle {
+  background-color: #6ff9f9;
+  color: #030303;
+}
+
+.accordion-P {
+  margin-left: 32%;
+}
+
+.accordion-play {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+}
+
+.accordion-body-play {
+  background-color: #323232;
+  margin-left: 18%;
+}
+
+.footer-play {
+  bottom: 0;
+  width: 100%;
+  margin: auto auto;
+}
+
+.logoFooter-play {
+  width: 100vh;
+  padding-bottom: 0%;
+  margin-bottom: -140%;
+}
+
+/*# sourceMappingURL=style.css.map */
